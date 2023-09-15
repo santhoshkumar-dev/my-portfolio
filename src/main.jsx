@@ -9,19 +9,19 @@ import Works from "./sections/Works.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/my-portfolio/",
+    path: "http://iamsanthosh.me/",
     element: <App />,
     children: [
       {
-        path: "/my-portfolio/",
+        path: "http://iamsanthosh.me/",
         element: <Home />,
       },
       {
-        path: "/my-portfolio/about",
+        path: "http://iamsanthosh.me/about",
         element: <AboutPage />,
       },
       {
-        path: "/my-portfolio/works",
+        path: "http://iamsanthosh.me/works",
         element: <Works />,
       },
     ],
