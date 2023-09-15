@@ -55,23 +55,23 @@ function Header() {
 
       <nav className="hidden md:flex items-center text-nav gap-6 text-lg">
         <Link
-          to="/"
+          to="/my-portfolio/"
           className={`hover:text-white duration-100 ${shouldUnderline("/")}`}
         >
           Home
         </Link>
         <Link
-          to="/about"
+          to="/my-portfolio/about"
           className={`hover:text-white duration-100 ${shouldUnderline(
-            "/about"
+            "/my-portfolio/about"
           )}`}
         >
           About
         </Link>
         <Link
-          to="/works"
+          to="/my-portfolio/works"
           className={`hover:text-white duration-100 ${shouldUnderline(
-            "/works"
+            "/my-portfolio/works"
           )}`}
         >
           Works
@@ -112,7 +112,7 @@ function Header() {
           </button>
           <nav className="flex flex-col gap-7">
             <Link
-              to="/"
+              to="/my-portfolio/"
               className={`hover:text-white duration-100 ${shouldUnderline(
                 "/"
               )}`}
@@ -120,17 +120,17 @@ function Header() {
               Home
             </Link>
             <Link
-              to="/about"
+              to="/my-portfolio/about"
               className={`hover:text-white duration-100 ${shouldUnderline(
-                "/about"
+                "/my-portfolio/about"
               )}`}
             >
               About
             </Link>
             <Link
-              to="/works"
+              to="/my-portfolio/works"
               className={`hover:text-white duration-100 ${shouldUnderline(
-                "/works"
+                "/my-portfolio/works"
               )}`}
             >
               Works
