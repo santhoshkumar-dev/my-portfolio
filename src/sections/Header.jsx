@@ -55,23 +55,23 @@ function Header() {
 
       <nav className="hidden md:flex items-center text-nav gap-6 text-lg">
         <Link
-          to="/my-portfolio/"
+          to="http://iamsanthosh.me/"
           className={`hover:text-white duration-100 ${shouldUnderline("/")}`}
         >
           Home
         </Link>
         <Link
-          to="/my-portfolio/about"
+          to="http://iamsanthosh.me/about"
           className={`hover:text-white duration-100 ${shouldUnderline(
-            "/my-portfolio/about"
+            "http://iamsanthosh.me/about"
           )}`}
         >
           About
         </Link>
         <Link
-          to="/my-portfolio/works"
+          to="http://iamsanthosh.me/works"
           className={`hover:text-white duration-100 ${shouldUnderline(
-            "/my-portfolio/works"
+            "http://iamsanthosh.me/works"
           )}`}
         >
           Works
@@ -114,15 +114,15 @@ function Header() {
             <Link
               to="/my-portfolio/"
               className={`hover:text-white duration-100 ${shouldUnderline(
-                "/"
+                "http://iamsanthosh.me/"
               )}`}
             >
               Home
             </Link>
             <Link
-              to="/my-portfolio/about"
+              to="http://iamsanthosh.me/about"
               className={`hover:text-white duration-100 ${shouldUnderline(
-                "/my-portfolio/about"
+                "http://iamsanthosh.me/about"
               )}`}
             >
               About
@@ -130,7 +130,7 @@ function Header() {
             <Link
               to="/my-portfolio/works"
               className={`hover:text-white duration-100 ${shouldUnderline(
-                "/my-portfolio/works"
+                "http://iamsanthosh.me/works"
               )}`}
             >
               Works
