@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Syne", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0); /* Start and end position */
+  }
+  50% {
+    transform: translateY(-5px); /* Middle position, adjust as needed */
+  }
+}
+.scroll-animation {
+  animation: moveUpDown 2s linear infinite;
+}
